@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SpartaProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpartaProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpartaProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SpartaProject">
+      <UniqueIdentifier>{975289DE-AA7C-3F12-A58F-4E4DFA15583C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpartaProject\SpartaProject.Build.cs">
+      <Filter>Source\SpartaProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpartaProject\SpartaProject.cpp">
+      <Filter>Source\SpartaProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\SpartaProject.h">
+      <Filter>Source\SpartaProject</Filter>
+    </ClCompile>
+    <Filter Include="Source\SpartaProject\.vs">
+      <UniqueIdentifier>{C65568D2-5B14-3FAC-A3AE-A99B0378DE2D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpartaProject\.vs\ProjectSettings.json">
+      <Filter>Source\SpartaProject\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\SpartaProject\.vs\slnx.sqlite">
+      <Filter>Source\SpartaProject\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\SpartaProject\.vs\VSWorkspaceState.json">
+      <Filter>Source\SpartaProject\.vs</Filter>
+    </None>
+    <Filter Include="Source\SpartaProject\.vs\SpartaProject">
+      <UniqueIdentifier>{8A59364F-696E-33AF-92B5-1BA0789F02E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpartaProject\.vs\SpartaProject\FileContentIndex">
+      <UniqueIdentifier>{74148792-E19E-37B8-BAA1-7D46C6F6C9FE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpartaProject\.vs\SpartaProject\FileContentIndex\6a22b511-b7cb-48bd-8dbd-96c116ce1b4e.vsidx">
+      <Filter>Source\SpartaProject\.vs\SpartaProject\FileContentIndex</Filter>
+    </None>
+    <Filter Include="Source\SpartaProject\.vs\SpartaProject\v17">
+      <UniqueIdentifier>{2C6CEF9A-7CBB-39CB-B566-B8C3ED1A7748}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpartaProject\.vs\SpartaProject\v17\.wsuo">
+      <Filter>Source\SpartaProject\.vs\SpartaProject\v17</Filter>
+    </None>
+    <None Include="..\..\Source\SpartaProject\.vs\SpartaProject\v17\Browse.VC.db">
+      <Filter>Source\SpartaProject\.vs\SpartaProject\v17</Filter>
+    </None>
+    <None Include="..\..\Source\SpartaProject\.vs\SpartaProject\v17\DocumentLayout.backup.json">
+      <Filter>Source\SpartaProject\.vs\SpartaProject\v17</Filter>
+    </None>
+    <None Include="..\..\Source\SpartaProject\.vs\SpartaProject\v17\DocumentLayout.json">
+      <Filter>Source\SpartaProject\.vs\SpartaProject\v17</Filter>
+    </None>
+    <Filter Include="Source\SpartaProject\.vs\SpartaProject\v17\ipch">
+      <UniqueIdentifier>{B02F22C7-4C21-3E63-B2D2-FAAA782CE7EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpartaProject\.vs\SpartaProject\v17\ipch\AutoPCH">
+      <UniqueIdentifier>{CD42E355-C61C-3C43-87C9-D99512266D3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpartaProject\.vs\SpartaProject\v17\ipch\AutoPCH\85107a90cbd771b9">
+      <UniqueIdentifier>{CF60B7F9-BC8F-30E1-B48C-F13259E09DD7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpartaProject\.vs\SpartaProject\v17\ipch\AutoPCH\85107a90cbd771b9\SPARTAPLAYERCONTROLLER.ipch">
+      <Filter>Source\SpartaProject\.vs\SpartaProject\v17\ipch\AutoPCH\85107a90cbd771b9</Filter>
+    </None>
+    <Filter Include="Source\SpartaProject\.vs\SpartaProject\v17\ipch\AutoPCH\96f0cbc2b5b37a41">
+      <UniqueIdentifier>{C4DF8406-C43B-30B9-A6B4-DDC71E348D8E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpartaProject\.vs\SpartaProject\v17\ipch\AutoPCH\96f0cbc2b5b37a41\SPARTAGAMESTATE.ipch">
+      <Filter>Source\SpartaProject\.vs\SpartaProject\v17\ipch\AutoPCH\96f0cbc2b5b37a41</Filter>
+    </None>
+    <Filter Include="Source\SpartaProject\Private">
+      <UniqueIdentifier>{28D321F0-9271-3957-A694-3A03882D6A9B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\BaseItem.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\BigCoinItem.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\CoinItem.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\HealingItem.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\ItemInterface.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\ItemSpawnRow.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\MineItem.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\SmallCoinItem.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\SpartaCharacter.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\SpartaGameInstance.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\SpartaGameMode.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\SpartaGameState.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\SpartaPlayerController.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Private\SpawnVolume.cpp">
+      <Filter>Source\SpartaProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SpartaProject\Public">
+      <UniqueIdentifier>{B8845FCF-8727-3340-A8DD-89B23119D34F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\BaseItem.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\BigCoinItem.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\CoinItem.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\HealingItem.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\ItemInterface.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\ItemSpawnRow.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\MineItem.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\SmallCoinItem.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\SpartaCharacter.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\SpartaGameInstance.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\SpartaGameMode.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\SpartaGameState.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\SpartaPlayerController.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpartaProject\Public\SpawnVolume.h">
+      <Filter>Source\SpartaProject\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

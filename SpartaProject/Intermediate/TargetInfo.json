@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SpartaProject",
+			"Path": "..\\Source\\SpartaProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SpartaProjectEditor",
+			"Path": "..\\Source\\SpartaProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

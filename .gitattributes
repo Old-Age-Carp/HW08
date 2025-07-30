@@ -1,0 +1,25 @@
+# Text files (UTF-8)
+*.txt text eol=lf
+*.ini text eol=lf
+*.uproject text eol=lf
+*.uasset text eol=lf
+*.umap text eol=lf
+*.ushaderbytecode text eol=lf
+
+# Binary files (LFS, diff, etc.)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.uasset binary
+*.umap binary
+*.ttf binary
+*.otf binary
+
+# Unreal Engine specific
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
+*.uasset binary
+*.umap binary
+*.ushaderbytecode binary
